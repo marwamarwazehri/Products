@@ -1,0 +1,47 @@
+.proud{
+       display: flex;
+       flex-direction: column;
+       justify-content:center;
+       align-items:center;
+        gap:2rem;
+       width:100%;
+       margin-top:8rem;
+       margin-bottom:5rem;
+       
+}
+
+.proud h4.title{
+       font-size: 20px;
+       text-align:left;
+       margin-left: 0;
+              /* Resetting the left margin */
+       
+       
+      }
+
+.proud-products{
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              gap: 1rem;
+              flex-wrap: wrap;
+              max-width: 900px;
+
+}
+
+.proud-products .link{
+       text-decoration: none;
+}
+
+
+/*////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+@media screen and (max-width:847px) {
+
+     
+      
+       }
+
+
+

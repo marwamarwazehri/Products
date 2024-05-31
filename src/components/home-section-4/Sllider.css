@@ -1,0 +1,116 @@
+.slider{
+       display: flex;
+       flex-direction: column;
+       gap:7px;
+       max-width: 830px;
+       margin-bottom:5rem;
+}
+
+.slider h4.titleSlider {
+       font-size: 20px;
+       text-align: left;
+
+}
+
+.trending-slider{
+  max-width: 770px;
+  display: flex;
+overflow-x: auto;
+scrollbar-width:thin;
+
+
+  
+}
+
+
+.arrows{
+       display:flex;
+       gap:5px;
+       justify-content: flex-end;
+       margin-bottom: 10px;
+}
+
+.arrows .arrow-item{
+       width:25px;
+       height:25px;
+       background-color: black;
+       
+}
+
+.arrow-item .arr{
+       color: white;
+       font-size:25px;
+       font-weight: 700;
+}
+
+.trending-slider .link{
+       text-decoration:none;
+}
+
+
+
+
+/* Handle */
+.trending-slider::-webkit-scrollbar-thumb {
+       background: #888;
+       /* Color of the scrollbar */
+       border-radius:4.5px;
+    /* Roundness of the scrollbar */
+}
+
+
+.trending-slider::-webkit-scrollbar-thumb:hover {
+       background: #555;
+       /* Color of the scrollbar on hover */
+}
+
+
+
+/*////////////////////////////////////////////////////////////////////////////////*/
+
+
+@media screen and (max-width:814px) {
+       .slider{
+              max-width:600;
+       }
+
+.trending-slider {
+ max-width:550px;
+      
+
+}
+
+}
+
+
+@media screen and (max-width:612px) {
+       .slider {
+              max-width: 600;
+       }
+
+       .trending-slider {
+              max-width:400px;
+
+
+       }
+
+}
+
+@media screen and (max-width:453px) {
+       .slider {
+              max-width: 600;
+       }
+
+       .trending-slider {
+              max-width:270px;
+
+
+       }
+
+}
+
+
+
+
+
+
