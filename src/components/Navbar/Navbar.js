@@ -130,7 +130,7 @@ const handleDecreaseQuantity = (id) => {
       <div className={sideBar ? 'res-links open ' : 'res-links hidden'}>
         <IoCloseSharp className='cancel' onClick={() => setSideBar(false)} />
         <Link to="/categories" className='navbar-link-2'>CATEGORIES</Link>
-        <Link to="/productpage" className='navbar-link-2'>PRODUCTPAGE</Link>
+        <Link to="/productpage/4" className='navbar-link-2'>PRODUCTPAGE</Link>
       </div>
     </div>
   );

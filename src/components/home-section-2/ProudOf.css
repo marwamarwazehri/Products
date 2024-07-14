@@ -37,9 +37,11 @@
 /*////////////////////////////////////////////////////////////////////////////////////////*/
 
 
-@media screen and (max-width:847px) {
+@media screen and (max-width:1200px) {
 
-     
+.proud-products .link {
+              text-decoration: none;
+       }
       
        }
 

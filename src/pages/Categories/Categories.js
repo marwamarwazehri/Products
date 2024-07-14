@@ -25,6 +25,7 @@ const Categories = () => {
       </div>
 
 <div className='category-data-btn'>
+<div className='wrap'>
   <div className='cat-2'>
         <button onClick={() => handleCategoryClick('All')}>All</button>
         <button onClick={() => handleCategoryClick('Furniture')}>Furnitures</button>
@@ -36,9 +37,11 @@ const Categories = () => {
         
       </div>
 
+      </div>
+
       <div className='categories-products'>
                 {filteredStuffs.map((product) => (
-                    <Link to={`/product/${product.id}`} key={product.id} className='link'>
+                    <Link to={`/product/${product.id}`} key={product.id} className='linkc'>
                         <Item product={product} />
                     </Link>
                 ))}

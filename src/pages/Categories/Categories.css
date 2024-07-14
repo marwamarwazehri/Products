@@ -6,6 +6,7 @@
        width:100%;
        margin-top: 3rem;
        gap:2rem;
+       
 }
 
 .cat-1 h1{
@@ -20,6 +21,10 @@
        gap: 1rem;
        justify-content: center;
        align-items: center;
+       
+
+
+       
 }
 .cat-2{
        display:flex;
@@ -49,24 +54,35 @@ flex-wrap: wrap;
 max-width:900px;
 }
 
+.categories-products .linkc{
+       text-decoration: none;
+}
+
 
 /*///////////////////////////////////////////////////////////////////////////////////////*/
 @media screen and (max-width:673px) {
 
+       .wrap{
+
+             height: 100vh;
+             
 .cat-2 {
          flex-direction: column;
          align-items: center;
          justify-content: center;
-         height: 100vh;
-         position: fixed;
-         top:1rem;
-         left:2rem;
+         position:fixed;
+         top:5rem;
          padding: 2rem;
+         z-index: -1;
        box-shadow: 10px 0 20px rgba(213, 209, 209, 0.1);
+     
        }
+
+}
 .category-data-btn {
        display: flex;
        flex-direction: row;
+       position: relative;
        
 }
 
